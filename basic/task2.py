@@ -4,7 +4,7 @@ import time
 
 def monitor_log(file_path):
     with open(file_path, "r") as file:
-        file.seek(0, 2)  # Move to the end of the file
+        file.seek(0, 2)  # Move to the end of the file , nya line read krega
         print(f"Monitoring {file_path} for changes...")
         
         while True:
